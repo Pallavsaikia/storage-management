@@ -1,0 +1,10 @@
+.switchdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.switchdiv > label{
+    margin-left: 6px;
+    font-size: 15px;
+    justify-self: center;
+}

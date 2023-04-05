@@ -1,0 +1,43 @@
+.shimmer {
+    color: grey;
+    display: inline-block;
+    -webkit-mask: linear-gradient(-60deg, #000 30%, #0005, #000 70%) right/300% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 1s infinite;
+    font-size: 50px;
+    width: 100%;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.shimmer >div{
+    margin-top: 10px;
+}
+.shimmer-div {
+    background-color: rgb(223, 221, 221);
+    border-radius: 2rem;
+    height: 15px;
+}
+
+.tall-shimmer{
+    margin-top: 30px!important;
+    margin-bottom: 30px;
+    height: 150px;
+    border-radius: .75rem;
+}
+.wide-shimmer {
+    width: 220px;
+}
+
+.small-shimmer {
+    width: 100px;
+}
+.regular-shimmer{
+    width:150px
+}
+
+@keyframes shimmer {
+    100% {
+        -webkit-mask-position: left
+    }
+}

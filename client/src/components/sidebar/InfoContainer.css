@@ -1,0 +1,80 @@
+.infodiv{
+    padding: 0px!important;
+    overflow-y: scroll;
+    width: 25%;
+    height: auto;
+    background-color: white;
+    /* border:1px  solid black; */
+    
+}
+
+.parentInfoContainer {
+    display: block;
+    height: 100vh;
+    width: 100%;
+}
+
+.info-header {
+    display: grid;
+    position: relative;
+    font-size: 30px;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.folder-header{
+    margin-left: 20px;
+}
+
+.info-header>div>span {
+    color: rgb(80, 80, 80);
+    font-weight: 400;
+}
+.info-header>span {
+    color: rgb(80, 80, 80);
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.info-body {
+
+    margin-top: 20px;
+}
+
+.details-activity-header{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-activity-header>span {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(236, 238, 240);
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.details-activity-header>span {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+.details-activity-header>span:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+.selected-tab{
+    color: rgb(32, 134, 134)!important;
+    font-weight: 700!important;
+    background-color: rgb(211, 231, 231)!important;
+}

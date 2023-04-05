@@ -1,0 +1,80 @@
+.parent-upload {
+    display: grid;
+
+    position: fixed;
+    width: 350px;
+    height: auto;
+    bottom: 0px;
+    right: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid black;
+    border-bottom: 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.upload-details{
+    font-size: 15px;
+    font-weight: 400;
+}
+.upload-header {
+    display: flex;
+    padding: 1.25rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.close-upload {
+    height: 20px;
+    width: 20px;
+}
+
+.close-upload:hover {
+    cursor: pointer;
+}
+.upload-type-icon{
+    height: 20px;
+    width: 20px;
+    filter: saturate(10%) brightness(200%) contrast(1%);
+    margin-right: 10px;
+}
+.icon-file-div{
+    align-items: center;
+    width: 100%;
+}
+
+.minimize-upload {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.minimize-upload:hover {
+    cursor: pointer;
+}
+
+.upload-detail-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.upload-detail-parent-div {
+    padding: .75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-top: 1px solid black;
+}
+
+.done-upload {
+    justify-self: end;
+    align-self: flex-end;
+    width: 20px;
+    height: 20px;
+}
+
+.progress-div-body {
+    max-height: 300px;
+    overflow-y: auto;
+}

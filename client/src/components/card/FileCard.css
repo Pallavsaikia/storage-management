@@ -1,0 +1,88 @@
+.card-custom {
+    width: 200px;
+    height: 200px;
+    justify-content: end;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid rgb(144, 146, 144);
+}
+
+.card-custom-clicked{
+    width: 200px;
+    height: 200px;
+    justify-content: end;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid rgba(12, 132, 168, 0.7);
+}
+
+.card-custom:hover {
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+.description-div {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0px;
+    justify-content: center;
+    background-color: rgba(1, 1, 1, .7);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.description-div:hover {
+    background-color: rgba(1, 1, 1, .9);
+}
+
+.description-text {
+    text-align: center;
+    justify-content: center;
+    color: rgba(40, 201, 174, 1);
+}
+
+.img-div{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-default{
+
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+}
+
+.img-loaded{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.upload-div{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    top:0;
+    border: 1px solid rgb(144, 146, 144);
+    right: 0;
+}
+.upload-div:hover{
+    background-color: rgb(235, 231, 231);
+}
+
+.upload-img{
+    filter: saturate(10%) brightness(200%) contrast(1%);
+    height: 25px;
+    width: 25px;
+}

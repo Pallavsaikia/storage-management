@@ -1,0 +1,22 @@
+.icon {
+    filter: saturate(10%) brightness(118%) contrast(10%);
+    width: 20px;
+    height: 20px;
+}
+.icon-large {
+    filter: saturate(10%) brightness(118%) contrast(10%);
+    width: 40px;
+    height: 40px;
+}
+.icon-very-large{
+    filter: saturate(10%) brightness(200%) contrast(1%);
+    width: 100px;
+    height: 100px;
+}
+
+
+.icon-colored {
+    width: 20px;
+    height: 20px;
+}
+

@@ -1,0 +1,6 @@
+.parentGrid {
+    background-color: #f5f5f9;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}

@@ -1,0 +1,31 @@
+.root-activity-card{
+    padding: 2rem;
+    border-bottom: 1px solid rgba(206, 202, 202, 0.966);
+}
+
+.action-icon{
+    width: 20px;
+    height: 20px;
+   
+}
+.image-background{
+    width:fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.flex-div{
+    display: flex;
+}
+.date{
+   width: 100%;
+   text-align: end;
+   font-size: 13px;
+   font-weight: 400;
+   color: rgb(73, 74, 75);
+}
+.details-span{
+    margin-left: 20px;
+    text-align: start;
+}

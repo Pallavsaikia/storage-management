@@ -1,0 +1,39 @@
+.contextMenu {
+    display: block;
+    width: auto;    
+    min-width: 250px;
+    height: auto;
+
+    border-radius: 0.25rem;
+    box-shadow: 30px;
+    position: absolute;
+    background-color: white;
+    /* left: 100px; */
+    /* top:200px;  */
+    
+    z-index: 7;
+    transition:all 0.5s;
+}
+
+.menuHeader {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menuitem {
+    padding: 1rem;
+    background-color: inherit;
+    border-radius: 0.25rem;
+}
+
+.menuText {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.menuitem:hover {
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+}

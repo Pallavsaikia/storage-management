@@ -1,0 +1,133 @@
+.parent-details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: 100vh;
+    margin-bottom: 100px!important;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+.parent-link{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+}
+.download-link{
+    text-decoration:none;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    font-weight: 350;
+    border-radius: 5px;
+    color: rgb(16, 139, 170);
+}
+
+.download-link:hover{ 
+    background-color: rgb(221, 220, 220);
+    color: rgb(16, 139, 170);
+}
+.header-title {
+   
+    font-weight: 350;
+    font-size: 15px;
+}
+
+.description {
+    font-weight: 350;
+    font-size: 18px;
+    color: rgb(32, 134, 134) !important;
+
+}
+.error-des{
+    width: 100%;
+    text-align:start;
+    font-weight: 350;
+    font-size: 14px;
+    margin-left: 20px;
+    hyphens:  all;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    hyphens: none;
+
+}
+
+
+.edit-div {
+    display: flex;
+    align-items: end;
+    justify-items: end;
+    justify-content: end;
+}
+
+.edit-btn {
+    cursor: pointer;
+    padding: 3px;
+    color: rgb(32, 134, 134) !important;
+    text-decoration: solid;
+    border-bottom: 1px solid rgb(32, 134, 134) !important;
+    width: 30px;
+}
+
+
+.edit-btn:hover {
+
+    background-color: rgb(222, 222, 223);
+    border-radius: 7px;
+
+}
+
+.description-main {
+    font-weight: 350;
+    font-size: 20px !important;
+    color: rgb(32, 134, 134) !important;
+
+}
+
+.other-details {
+    font-weight: 350;
+    font-size: 27px;
+    color: rgb(32, 134, 134) !important;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.icon-details {
+    width: 24px !important;
+    height: 24px !important;
+    cursor: pointer;
+}
+
+.mleft-2 {
+    margin-left: 20px;
+}
+
+.mtop-2 {
+    margin-top: 10px;
+}
+
+.mbottom-2 {
+    margin-bottom: 20px;
+}
+
+.vertical-center {
+    display: flex;
+    text-align: center;
+}
+
+.black {
+    text-align: start;
+    color: rgba(0, 0, 0, 0.6) !important;
+}

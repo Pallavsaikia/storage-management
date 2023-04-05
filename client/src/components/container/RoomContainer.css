@@ -1,0 +1,82 @@
+
+.tab{
+    padding-bottom: 5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    color:   rgb(31, 182, 162);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.tab-nohover{
+    padding-bottom: 5px;
+    padding-right:5px;
+    padding-top: 5px;
+    color:   rgb(104, 109, 108);
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+
+.location-header{
+    white-space: nowrap;
+}
+
+.tab:hover{
+    background-color: rgb(214, 213, 213);
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+
+.flexgrid {
+    display: grid;
+    width: 100%;
+    gap: 2rem;
+    height: 100vh;
+    padding: 3rem;
+    padding-bottom: 500px;
+    overflow-y: hidden;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(60px, 1fr));
+    
+}
+
+
+.flexgrid-parent {
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+.parentGrid {
+    background-color: #f5f5f9;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.infodiv {
+    overflow-y: scroll;
+    padding: 2rem;
+    width: 450px;
+    height: auto;
+    background-color: white;
+    border-left: 2px solid rgba(240, 240, 240, 0.808);
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .infodiv {
+        visibility: collapse;
+
+    }
+}
+
+.files-div{
+    display: grid;
+    padding: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(220px, 1fr));
+}

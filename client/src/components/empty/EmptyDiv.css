@@ -1,0 +1,17 @@
+.icon-colored-big{
+    width: 250px;
+    height: 250px;
+}
+.parent-empty-div{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.parent-empty-div>span{
+    width: 100%;
+    font-weight: 500;
+    color: #3abbee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}

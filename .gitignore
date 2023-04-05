@@ -1,0 +1,11 @@
+backend/node_modules
+backend/.vscode
+backend/.env
+backend/uploads
+backend/cert.pem
+backend/key.pem
+# backend/jest.config.js
+# backend/__tests__
+
+client/cosmos-client/node_modules
+client/cosmos-client/build

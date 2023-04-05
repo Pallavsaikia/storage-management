@@ -1,0 +1,15 @@
+
+.icon{
+    margin-right: 0px;
+    filter: saturate(10%) brightness(118%) contrast(10%) !important;
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover{
+    filter: saturate(10%) brightness(118%) contrast(100%) !important;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: all .2s;
+}

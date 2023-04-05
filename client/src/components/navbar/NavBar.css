@@ -1,0 +1,98 @@
+.navheader,
+.navheader:link,
+.navheader:visited,
+.navheader:active,
+.navheader:hover {
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
+
+
+.navbar {
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content:flex-start;
+    height: auto; 
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+}
+
+.nav-menu{
+    width: auto;
+    margin-left: 2rem;
+    justify-content: space-between;
+}
+.nav-item{
+    color: aliceblue !important;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.search-bar{
+    display: grid;
+}
+.search-results{
+    
+    position:absolute;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(116, 115, 115, 0.24);
+    width: 650px;
+    height: auto;
+    margin-top: 40px;
+    box-shadow: rgba(158, 155, 155, 0.24) 0px 3px 8px;
+
+}
+
+.active {
+    color: rgb(7, 233, 203) !important;
+    font-weight: 400;
+}
+
+.profile{
+    height:30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.username,
+.username:link,
+.username:visited,
+.username:active,
+.username:hover {
+    color: aliceblue;
+    width: auto;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none; 
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.loadingLine{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+	height: 3px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
